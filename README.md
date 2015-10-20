@@ -88,13 +88,81 @@ Distribute code is compileded on forder **/dist**
 		/lib
 		/templates
 		
-### Styling
+## Routing
 
-Sass files (\*.sass, \*.scss) must be located on **/src/styles** folder root.
+Put the routes for your app into file **/script/routes.js**.
 
-* Grunt task **sass.js** will process the files into CSS files to folder **/src/styles/css**.
-* Grunt task **copy.js** will copy all CSS files into **/src/styles/css** to folder **/dist/css** for ditribution.
-* You can also create and edit CSS files in **/src/styles/css**.
+	define(['controllers', 'directives'], function() {
+		'use strict';
+		window.app.config(['$routeProvider',
+			function($routeProvider) {
+				$routeProvider.
+				when('/', {
+					templateUrl: 'templates/index.html',
+					controller: 'indexController'
+				}).
+				otherwise({
+					redirectTo: '/'
+				});
+			}
+		]);
+	});
+
+## Controllers
+
+Controllers are loaded by RequireJS. Put all your neededed controllers into file **/scripts/controllers.js**.
+
+	define(['controllers/index'], function(indexController) {
+		'use strict';
+		window.app.controller('indexController', indexController);
+	});
+
+The controllers files should be located into folder **/scripts/controllers/**
+
+	//scripts/controllers/index.js
+	
+	define([], function() {
+		'use strict';
+	
+		function indexController($scope, $http) {
+			$scope.data = {};
+			$scope.data.libs = [];
+			$http.get('data/data.json').then(function(result) {
+				$scope.data.libs = result.data;
+			});
+		}
+		indexController.$inject = ['$scope', '$http'];
+		return indexController;
+	});
+
+## Directives
+
+Directives are loaded by RequireJS. Put all your neededed directives into file **/scripts/directives.js**.
+
+	define(['directives/header', 'directives/footer'], function(headerDirective, footerDirective) {
+		'use strict';
+		window.app.directive('ngheader', headerDirective);
+		window.app.directive('ngfooter', footerDirective);
+	});
+
+The directive files should be located into folder **/scripts/directives/**
+
+	//scripts/directives/header.js
+	
+	define(['controllers/header', 'text!../../templates/header.html'], function(controller, template) {
+		'use strict';
+	
+		function headerDirective() {
+			return {
+				restrict: 'A',
+				controller: controller,
+				template: template
+			};
+		}
+		return headerDirective;
+	});
+
+You can use RequireJS Text plugin to load a tempate file for the directive and inject a controller.
 
 ### Templating
 
@@ -124,6 +192,14 @@ You can use combined Jade and Angular directives for templating:
 **Documentation:**
 
 * [http://jade-lang.com/](http://jade-lang.com/)
+
+### Styling
+
+Sass files (\*.sass, \*.scss) must be located on **/src/styles** folder root.
+
+* Grunt task **sass.js** will process the files into CSS files to folder **/src/styles/css**.
+* Grunt task **copy.js** will copy all CSS files into **/src/styles/css** to folder **/dist/css** for ditribution.
+* You can also create and edit CSS files in **/src/styles/css**.
 
 # Contributing and issues
 
