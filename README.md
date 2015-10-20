@@ -1,4 +1,4 @@
-# generator-base-backbone
+# generator-base-angularjs
 
 [![Build Status](https://secure.travis-ci.org/zguillez/generator-base-angularjs.png?branch=master)](https://travis-ci.org/zguillez/generator-base-angularjs) [![Code Climate](https://codeclimate.com/github/zguillez/generator-base-angularjs/badges/gpa.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)
 
@@ -63,8 +63,8 @@ Develop code on folder **/src**
 		/data
 		/images
 		/scripts
-			/collections
-			/views
+			/controllers
+			/directives
 		/styles
 		/templates
 		
@@ -105,19 +105,21 @@ The NodeJS template engine JADE is implemented. Jade files (\*.jade) must be loc
 * You can also create and edit HTML templates files in **/templates/html**.
 
 
-You can use combined Jade and Lodash for templating:
+You can use combined Jade and Angular directives for templating:
 
 	//templates/index.jade
 	
-	header#header
+	header('ngheader'='')
+	
 	section(class='content')
-	header
-		img(class='logo', src='images/backbone.png')
-	.buttons.row
-		<% _.forEach(libs, function(lib) { %>
-		<%=  '<a href="' + lib.url + '" target="_black" data-bypass="data-bypass" class="btn btn-default btn-sm">' + lib.name + '</a>'  %>
-		<% }); %>
-	footer#footer
+    
+    header
+        img(class='logo', src='images/angularjs.png')
+
+    .buttons.row
+        a('ng-repeat'='lib in data.libs', 'class'='btn btn-default btn-sm', 'href'='{{lib.url}}', 'target'='_black') {{lib.name}}
+
+	footer('ngfooter'='')
 	
 **Documentation:**
 
@@ -135,7 +137,7 @@ Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Op
 
 # Changelog
 
-### v1.0.0 (October 20, 2015) 
+### v0.1.0 (October 20, 2015) 
 * Initial AngularJS skeleton
 
 Features:
