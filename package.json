@@ -1,6 +1,6 @@
 {
   "name": "generator-base-angularjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "AngularJS basic skeleton for webapp development. With RequireJS, Bootstrap, Sass. Also with JSHint and Grunt.",
   "license": "MIT",
   "main": "app/index.js",
@@ -13,8 +13,18 @@
   "scripts": {
     "test": "mocha"
   },
-  "files": ["generators"],
-  "keywords": ["yeoman-generator", "Angular", "Jade", "Sass", "Bootstrap", "Jquery", "Grunt"],
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "Angular",
+    "Jade",
+    "Sass",
+    "Bootstrap",
+    "Jquery",
+    "Grunt"
+  ],
   "dependencies": {
     "yeoman-generator": "^0.19.0",
     "chalk": "^1.0.0",
