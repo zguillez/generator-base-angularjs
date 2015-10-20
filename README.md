@@ -1,12 +1,12 @@
 # generator-base-backbone
 
-[![Build Status](https://secure.travis-ci.org/zguillez/generator-base-backbone.png?branch=master)](https://travis-ci.org/zguillez/generator-base-backbone) [![Code Climate](https://codeclimate.com/github/zguillez/generator-base-backbone/badges/gpa.svg)](https://codeclimate.com/github/zguillez/generator-base-backbone)
+[![Build Status](https://secure.travis-ci.org/zguillez/generator-base-angularjs.png?branch=master)](https://travis-ci.org/zguillez/generator-base-angularjs) [![Code Climate](https://codeclimate.com/github/zguillez/generator-base-angularjs/badges/gpa.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
-### Yeoman generator for Backbone.js webapp development. With RequireJS, Bootstrap, Sass, and templating with Jade and Lodash
+### Yeoman generator for AngularJS webapp development. With RequireJS, Bootstrap, Sass, and templating with Jade.
 
-![](http://zguillez.github.io/img/backbone.png)
+![](http://zguillez.github.io/img/angularjs.png)
 
 # Getting Started
 
@@ -16,13 +16,13 @@
 
 ### Yeoman Generators
 
-To install generator-base-backbone from npm, run:
+To install generator-base-angularjs from npm, run:
 
-	npm install -g generator-base-backbone
+	npm install -g generator-base-angularjs
 
 Finally, initiate the generator:
 
-	yo base-backbone
+	yo base-angularjs
 
 If you have error on install try to update dependences manually:
 
@@ -122,7 +122,6 @@ You can use combined Jade and Lodash for templating:
 **Documentation:**
 
 * [http://jade-lang.com/](http://jade-lang.com/)
-* [https://lodash.com/](https://lodash.com/)
 
 # Contributing and issues
 
@@ -137,14 +136,13 @@ Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Op
 # Changelog
 
 ### v1.0.0 (October 20, 2015) 
-* Initial Backbone.js skeleton
+* Initial AngularJS skeleton
 
 Features:
 
 * Bootstrap
 * Jquery
 * Sass
-* Lodash
 * Jade templating
 * JSHint code chech
 * Grunt tasks
