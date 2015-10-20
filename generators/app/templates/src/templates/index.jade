@@ -1,0 +1,11 @@
+header('ngheader'='')
+
+section(class='content')
+
+    header
+        img(class='logo', src='images/angularjs.png')
+
+    .buttons.row
+        a('ng-repeat'='lib in data.libs', 'class'='btn btn-default btn-sm', 'href'='{{lib.url}}', 'target'='_black') {{lib.name}}
+
+footer('ngfooter'='')
