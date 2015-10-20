@@ -1,6 +1,6 @@
 {
   "name": "generator-base-angularjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "AngularJS basic skeleton for webapp development. With RequireJS, Bootstrap, Sass. Also with JSHint and Grunt.",
   "license": "MIT",
   "main": "app/index.js",
