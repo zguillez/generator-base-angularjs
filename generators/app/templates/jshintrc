@@ -14,5 +14,5 @@
   "undef": true,
   "unused": true,
   "strict": true,
-  "predef": ["require", "define", "document", "window"]
+  "predef": ["require", "define", "document", "angular", window"]
 }
