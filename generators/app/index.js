@@ -5,7 +5,7 @@ var yosay = require('yosay');
 module.exports = yeoman.generators.Base.extend({
   prompting: function() {
     var done = this.async();
-    this.log(yosay('Welcome to the zetadelic ' + chalk.red('AngularJS v0.1.2') + ' generator!'));
+    this.log(yosay('Welcome to the zetadelic ' + chalk.red('AngularJS v0.1.3') + ' generator!'));
     var prompts = [];
     this.prompt(prompts, function(props) {
       this.props = props;
