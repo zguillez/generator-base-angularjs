@@ -213,6 +213,10 @@ Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Op
 
 # Changelog
 
+### v0.1.5 (October 21, 2015) 
+
+* Fixed jshint isuses
+
 ### v0.1.0 (October 20, 2015) 
 * Initial AngularJS skeleton
 
