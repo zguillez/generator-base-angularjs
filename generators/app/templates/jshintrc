@@ -14,5 +14,5 @@
   "undef": true,
   "unused": true,
   "strict": true,
-  "predef": ["require", "define", "document"]
+  "predef": ["require", "define", "document", "window"]
 }
