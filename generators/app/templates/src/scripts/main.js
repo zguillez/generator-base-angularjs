@@ -12,9 +12,9 @@ require.config({
 window.app = {};
 require(['angular', 'jquery'], function() {
 	require(['angularrouter', 'bootstrap'], function() {
-		window.app = angular.module('appx', ['ngRoute']);
+		window.app = angular.module('App', ['ngRoute']);
 		require(['router'], function() {
-			angular.bootstrap(document, ['appx']);
+			angular.bootstrap(document, ['App']);
 		});
 	});
 });
