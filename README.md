@@ -8,7 +8,6 @@
 ![](https://reposs.herokuapp.com/?path=zguillez/generator-base-angularjs)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 [![Analytics](https://ga-beacon.appspot.com/UA-1125217-30/zguillez/generator-base-angularjs?pixel)](https://github.com/igrigorik/ga-beacon)
->>>>>>> 101b77201c1e809d2cd5957ce1eaaae25ac3d883
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
