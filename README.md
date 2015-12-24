@@ -1,12 +1,13 @@
 # generator-base-angularjs
 
 [![npm version](https://badge.fury.io/js/generator-base-angularjs.svg)](https://badge.fury.io/js/generator-base-angularjs)
+[![Build Status](http://img.shields.io/travis/zguillez/generator-base-angularjs.svg)](https://github.com/zguillez/generator-base-angularjs)
 [![Code Climate](http://img.shields.io/codeclimate/github/zguillez/generator-base-angularjs.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)
-[![Build Status](http://img.shields.io/travis/zguillez/generator-base-angularjs.svg)](https://travis-ci.org/zguillez/generator-base-angularjs)
-[![Coverage Status](http://img.shields.io/coveralls/zguillez/generator-base-angularjs.svg)](https://coveralls.io/r/zguillez/generator-base-angularjs)
 [![Dependency Status](https://gemnasium.com/zguillez/generator-base-angularjs.svg)](https://gemnasium.com/zguillez/generator-base-angularjs)
+[![Installs](https://img.shields.io/npm/dt/generator-base-angularjs.svg)](https://coveralls.io/r/zguillez/generator-base-angularjs)
 ![](https://reposs.herokuapp.com/?path=zguillez/generator-base-angularjs)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+[![Analytics](https://ga-beacon.appspot.com/UA-1125217-30/zguillez/generator-base-angularjs?pixel)](https://github.com/igrigorik/ga-beacon)
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
