@@ -1,7 +1,4 @@
 # generator-base-angularjs
-<<<<<<< HEAD
-[![Build Status](https://secure.travis-ci.org/zguillez/generator-base-angularjs.png?branch=master)](https://travis-ci.org/zguillez/generator-base-angularjs) [![Code Climate](https://codeclimate.com/github/zguillez/generator-base-angularjs/badges/gpa.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)
-=======
 
 [![npm version](https://badge.fury.io/js/generator-base-angularjs.svg)](https://badge.fury.io/js/generator-base-angularjs)
 [![Build Status](http://img.shields.io/travis/zguillez/generator-base-angularjs.svg)](https://github.com/zguillez/generator-base-angularjs)
