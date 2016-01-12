@@ -228,18 +228,21 @@ Sass files (*.sass, *.scss) must be located on **/src/styles** folder root.
 Contributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better then please submit an issue or send me an [email](mailto:mail@zguillez.io).
 
 # License
-©2015 Zguillez.io
+©2016 Zguillez.io
 
 Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Open Source projects used within this project retain their original licenses.
 
 # Changelog
-## v0.1.7 (Decenber 21, 2015)
+### v1.0.0 (January 12, 2016)
+- Fix yo install version
+
+### v0.1.7 (Decenber 21, 2015)
 - Grunt livereload
 
-## v0.1.5 (October 21, 2015)
+### v0.1.5 (October 21, 2015)
 - Fixed jshint isuses
 
-## v0.1.0 (October 20, 2015)
+### v0.1.0 (October 20, 2015)
 - Initial AngularJS skeleton
 
 Features:
