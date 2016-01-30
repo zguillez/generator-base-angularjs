@@ -1,5 +1,7 @@
 # generator-base-angularjs
 
+[![Join the chat at https://gitter.im/zguillez/generator-base-angularjs](https://badges.gitter.im/zguillez/generator-base-angularjs.svg)](https://gitter.im/zguillez/generator-base-angularjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![npm version](https://badge.fury.io/js/generator-base-angularjs.svg)](https://badge.fury.io/js/generator-base-angularjs)
 [![Build Status](http://img.shields.io/travis/zguillez/generator-base-angularjs.svg)](https://github.com/zguillez/generator-base-angularjs)
 [![Code Climate](http://img.shields.io/codeclimate/github/zguillez/generator-base-angularjs.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)
