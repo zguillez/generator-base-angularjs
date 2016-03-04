@@ -13,9 +13,9 @@
 	"dependencies": {
 		"requirejs": "~2.1.22",
 		"requirejs-text": "~2.0.14",
-		"angular": "~1.4.9",
-		"jquery": "~2.2.0",
+		"angular": "~1.5.0",
+		"jquery": "~2.2.1",
 		"bootstrap": "~3.3.6",
-		"angular-route": "~1.4.9"
+		"angular-route": "~1.5.0"
 	}
 }

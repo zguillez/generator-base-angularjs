@@ -28,6 +28,9 @@ To install generator-base-angularjs from npm, run:
 
 ```
 npm install -g generator-base-angularjs
+
+//or:
+sudo npm install -g generator-base-angularjs
 ```
 
 Finally, initiate the generator:
@@ -226,6 +229,53 @@ Sass files (*.sass, *.scss) must be located on **/src/styles** folder root.
 - Grunt task **copy.js** will copy all CSS files into **/src/styles/css** to folder **/dist/css** for ditribution.
 - You can also create and edit CSS files in **/src/styles/css**.
 
+# Dependencies
+
+Grunt task **copy.js** will read all bower.js files from **/bower_components** subfolders, and copy the file path from **main** node, like:
+
+	//bower_components/requirejs/bower.json
+	{
+	  ...
+	  "main": "require.js",
+	  ...
+	} 
+
+And put this files into folder **/dist/lib/**.
+
+If any installed dependency has no bower.json file (like lodash) you must edit the **copy.js** task to manually copy it:
+
+	grunt.config.set('copy', {
+		...
+		lodash_: {
+			cwd: 'bower_components/lodash/dist',
+			src: 'lodash.js',
+			dest: 'dist/lib/',
+			expand: true
+		},
+		...
+	});
+
+If an unnecesaary file is copied (like boostrap.less):
+
+	//bower_components/bootstrap/bower.json
+	{
+	  ...
+	  "main": [
+    	"less/bootstrap.less",
+    	"dist/js/bootstrap.js"
+	  ],
+	  ...
+	} 
+	
+you can delete it with the **clean-dist.js** task:
+
+	//grunt/clean-dist.js
+	grunt.registerTask('clean-dist', 'Clean dist folder', function() {
+		...
+		grunt.config.set('clean.files.src', ['dist/lib/bootstrap.less']);
+		...
+	});
+
 # Contributing and issues
 Contributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better then please submit an issue or send me an [email](mailto:mail@zguillez.io).
 
@@ -235,6 +285,11 @@ Contributors are welcome, please fork and send pull requests! If you have any id
 Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Open Source projects used within this project retain their original licenses.
 
 # Changelog
+
+### v1.1.0 (March 4, 2016)
+
+- Auto copy dependecies fron bower.json file
+
 ### v1.0.0 (January 12, 2016)
 - Fix yo install version
 

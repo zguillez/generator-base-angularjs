@@ -3,10 +3,10 @@ require.config({
 	paths: {
 		routes: './routes',
 		text: '../lib/text',
-		angular: '../lib/angular.min',
-		angularrouter: '../lib/angular-route.min',
-		jquery: '../lib/jquery.min',
-		bootstrap: '../lib/bootstrap.min'
+		angular: '../lib/angular',
+		angularrouter: '../lib/angular-route',
+		jquery: '../lib/jquery',
+		bootstrap: '../lib/bootstrap'
 	}
 });
 window.app = {};
