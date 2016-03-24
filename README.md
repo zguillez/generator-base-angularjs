@@ -7,7 +7,6 @@
 [![Installs](https://img.shields.io/npm/dt/generator-base-angularjs.svg)](https://coveralls.io/r/zguillez/generator-base-angularjs)
 ![](https://reposs.herokuapp.com/?path=zguillez/generator-base-angularjs)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
-[![Analytics](https://ga-beacon.appspot.com/UA-1125217-30/zguillez/generator-base-angularjs?pixel)](https://github.com/igrigorik/ga-beacon)
 [![Join the chat at https://gitter.im/zguillez/generator-base-angularjs](https://badges.gitter.im/zguillez/generator-base-angularjs.svg)](https://gitter.im/zguillez/generator-base-angularjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
@@ -308,3 +307,5 @@ Features:
 - Jade templating
 - JSHint code chech
 - Grunt tasks
+
+[![Analytics](https://ga-beacon.appspot.com/UA-1125217-30/zguillez/generator-base-angularjs?pixel)](https://github.com/igrigorik/ga-beacon)

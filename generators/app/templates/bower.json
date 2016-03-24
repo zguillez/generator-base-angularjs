@@ -1,6 +1,6 @@
 {
 	"name": "generator-base-angularjs",
-	"version": "0.1.13",
+	"version": "1.1.4",
 	"description": "AngularJS basic skeleton for webapp development. With RequireJS, Bootstrap, Sass. Also with JSHint and Grunt.",
 	"license": "MIT",
 	"main": "app/index.js",
@@ -11,11 +11,11 @@
 		"url": "https://github.com/zguillez"
 	},
 	"dependencies": {
-		"requirejs": "~2.1.22",
+		"requirejs": "~2.2.0",
 		"requirejs-text": "~2.0.14",
-		"angular": "~1.5.0",
-		"jquery": "~2.2.1",
+		"angular": "~1.5.2",
+		"jquery": "~2.2.2",
 		"bootstrap": "~3.3.6",
-		"angular-route": "~1.5.0"
+		"angular-route": "~1.5.2"
 	}
 }
