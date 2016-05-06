@@ -12,10 +12,10 @@
 	},
 	"dependencies": {
 		"requirejs": "~2.2.0",
-		"requirejs-text": "~2.0.14",
-		"angular": "~1.5.3",
+		"requirejs-text": "~2.0.15",
+		"angular": "~1.5.5",
 		"jquery": "~2.2.3",
 		"bootstrap": "~3.3.6",
-		"angular-route": "~1.5.3"
+		"angular-route": "~1.5.5"
 	}
 }
