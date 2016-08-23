@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.29/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.6
+3 info using node@v5.8.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/zguillez/Documents/SVN/YEOMAN/generator-base-angularjs',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/zguillez/.npm/generator-base-angularjs/1.2.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/zguillez/.npm correctMkdir not in flight; initializing
+10 info lifecycle generator-base-angularjs@1.2.1~prepublish: generator-base-angularjs@1.2.1
+11 verbose lifecycle generator-base-angularjs@1.2.1~prepublish: unsafe-perm in lifecycle true
+12 verbose lifecycle generator-base-angularjs@1.2.1~prepublish: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/zguillez/Documents/SVN/YEOMAN/generator-base-angularjs/node_modules/.bin:/usr/local/Cellar/node/0.10.29/bin:/usr/local/php5/bin:/usr/local/sbin:/usr/local/sbin:/usr/local/sbin:/usr/local/sbin:/usr/local/sbin:/Users/zguillez/.rvm/gems/ruby-2.2.1/bin:/Users/zguillez/.rvm/gems/ruby-2.2.1@global/bin:/Users/zguillez/.rvm/rubies/ruby-2.2.1/bin:/Users/zguillez/.rbenv/shims:/Users/zguillez/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/zguillez/Documents/Android/sdk/platform-tools:/Users/zguillez/Documents/Android/sdk/tools:/Users/zguillez/.rvm/bin
+13 verbose lifecycle generator-base-angularjs@1.2.1~prepublish: CWD: /Users/zguillez/Documents/SVN/YEOMAN/generator-base-angularjs
+14 silly lifecycle generator-base-angularjs@1.2.1~prepublish: Args: [ '-c', 'gulp prepublish' ]
+15 silly lifecycle generator-base-angularjs@1.2.1~prepublish: Returned: code: 0  signal: null
+16 verbose tar pack [ '/Users/zguillez/.npm/generator-base-angularjs/1.2.1/package.tgz',
+16 verbose tar pack   '/Users/zguillez/Documents/SVN/YEOMAN/generator-base-angularjs' ]
+17 verbose tarball /Users/zguillez/.npm/generator-base-angularjs/1.2.1/package.tgz
+18 verbose folder /Users/zguillez/Documents/SVN/YEOMAN/generator-base-angularjs
+19 verbose addLocalTarball adding from inside cache /Users/zguillez/.npm/generator-base-angularjs/1.2.1/package.tgz
+20 verbose correctMkdir /Users/zguillez/.npm correctMkdir not in flight; initializing
+21 silly cache afterAdd generator-base-angularjs@1.2.1
+22 verbose afterAdd /Users/zguillez/.npm/generator-base-angularjs/1.2.1/package/package.json not in flight; writing
+23 verbose correctMkdir /Users/zguillez/.npm correctMkdir not in flight; initializing
+24 verbose afterAdd /Users/zguillez/.npm/generator-base-angularjs/1.2.1/package/package.json written
+25 silly publish { name: 'generator-base-angularjs',
+25 silly publish   version: '1.2.1',
+25 silly publish   description: 'AngularJS basic skeleton for webapp development. With RequireJS, Bootstrap, Sass. Also with JSHint and Grunt.',
+25 silly publish   homepage: '',
+25 silly publish   author:
+25 silly publish    { name: 'Guillermo de la Iglesia',
+25 silly publish      email: 'mail@zguillez.io',
+25 silly publish      url: 'https://github.com/zguillez' },
+25 silly publish   files: [ 'generators' ],
+25 silly publish   main: 'generators/index.js',
+25 silly publish   keywords:
+25 silly publish    [ 'yeoman-generator',
+25 silly publish      'Angular',
+25 silly publish      'Jade',
+25 silly publish      'Sass',
+25 silly publish      'Bootstrap',
+25 silly publish      'Jquery',
+25 silly publish      'Grunt' ],
+25 silly publish   dependencies:
+25 silly publish    { 'yeoman-generator': '^0.24.1',
+25 silly publish      chalk: '^1.1.3',
+25 silly publish      yosay: '^1.2.0' },
+25 silly publish   devDependencies:
+25 silly publish    { 'yeoman-test': '^1.4.0',
+25 silly publish      'yeoman-assert': '^2.2.1',
+25 silly publish      eslint: '^3.3.1',
+25 silly publish      'eslint-config-xo-space': '^0.14.0',
+25 silly publish      gulp: '^3.9.1',
+25 silly publish      'gulp-eslint': '^3.0.1',
+25 silly publish      'gulp-exclude-gitignore': '^1.0.0',
+25 silly publish      'gulp-line-ending-corrector': '^1.0.1',
+25 silly publish      'gulp-istanbul': '^1.1.0',
+25 silly publish      'gulp-mocha': '^3.0.1',
+25 silly publish      'gulp-plumber': '^1.1.0',
+25 silly publish      'gulp-nsp': '^2.4.2',
+25 silly publish      'gulp-coveralls': '^0.1.4',
+25 silly publish      bower: '^1.7.9',
+25 silly publish      'connect-livereload': '^0.5.4',
+25 silly publish      grunt: '^1.0.1',
+25 silly publish      'grunt-contrib-clean': '~1.0.0',
+25 silly publish      'grunt-contrib-concat': '^1.0.1',
+25 silly publish      'grunt-contrib-connect': '~1.0.2',
+25 silly publish      'grunt-contrib-copy': '~1.0.0',
+25 silly publish      'grunt-contrib-jade': '^1.0.0',
+25 silly publish      'grunt-contrib-jshint': '^1.0.0',
+25 silly publish      'grunt-contrib-sass': '~1.0.0',
+25 silly publish      'grunt-contrib-uglify': '~2.0.0',
+25 silly publish      'grunt-contrib-watch': '^1.0.0',
+25 silly publish      'grunt-merge-copy': '^1.0.1',
+25 silly publish      'grunt-open': '^0.2.3',
+25 silly publish      'grunt-reload': '^0.2.0',
+25 silly publish      jade: '^1.11.0',
+25 silly publish      'jshint-stylish': '^2.2.1',
+25 silly publish      'load-grunt-tasks': '^3.5.2' },
+25 silly publish   eslintConfig: { extends: 'xo-space', env: { mocha: true } },
+25 silly publish   repository: { type: 'git', url: '/zguillez/generator-base-angularjs' },
+25 silly publish   scripts: { prepublish: 'gulp prepublish', test: 'gulp' },
+25 silly publish   license: 'Apache-2.0',
+25 silly publish   readme: '# generator-base-angularjs\n\n[![npm version](https://badge.fury.io/js/generator-base-angularjs.svg)](https://badge.fury.io/js/generator-base-angularjs)\n[![Build Status](http://img.shields.io/travis/zguillez/generator-base-angularjs.svg)](https://github.com/zguillez/generator-base-angularjs)\n[![Code Climate](http://img.shields.io/codeclimate/github/zguillez/generator-base-angularjs.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)\n[![Dependency Status](https://gemnasium.com/zguillez/generator-base-angularjs.svg)](https://gemnasium.com/zguillez/generator-base-angularjs)\n[![Installs](https://img.shields.io/npm/dt/generator-base-angularjs.svg)](https://coveralls.io/r/zguillez/generator-base-angularjs)\n![](https://reposs.herokuapp.com/?path=zguillez/generator-base-angularjs)\n[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)\n[![Join the chat at https://gitter.im/zguillez/generator-base-angularjs](https://badges.gitter.im/zguillez/generator-base-angularjs.svg)](https://gitter.im/zguillez/generator-base-angularjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n> [Zguillez](https://zguillez.io) | Guillermo de la Iglesia\n\n## Yeoman generator for AngularJS webapp development. With RequireJS, Bootstrap, Sass, and templating with Jade.\n![](http://zguillez.github.io/img/angularjs.png)\n\n# Getting Started\n## Install Yeoman\n\n```\nnpm install -g yo\n```\n\n## Yeoman Generators\nTo install generator-base-angularjs from npm, run:\n\n```\nnpm install -g generator-base-angularjs\n\n//or:\nsudo npm install -g generator-base-angularjs\n```\n\nFinally, initiate the generator:\n\n```\nyo base-angularjs\n```\n\nIf you have error on install try to update dependences manually:\n\n```bash\nsudo npm update\n```\n\n```bash\nbower update\n```\n\n## Requeriments\n### [NodeJS](https://nodejs.org/)\nFor update npm\n\n```\nsudo npm install npm -g\n```\n\n### [Bower](http://bower.io/)\n\n```\nnpm install -g bower\n```\n\n### [Sass](http://sass-lang.com/)\n\n```\nsudo gem install sass\n```\n\n**Documentation:**\n- [https://nodejs.org/](https://nodejs.org/)\n- [http://bower.io/](http://bower.io/)\n- [http://sass-lang.com/](http://sass-lang.com/)\n\n# Usage\nDevelop code on folder **/src**\n\n```\n/src\n    /data\n    /images\n    /scripts\n        /controllers\n        /directives\n    /styles\n    /templates\n```\n\n## Compile code\nUse grunt task to compile code and deploy webapp\n\n```\ngrunt serve\n```\n\nTHis will launch server on port 9000\n\n```\nhttp://localhost:9000/\n```\n\nDistribute code is compileded on forder **/dist**\n\n```\n/dist\n    /css\n    /data\n    /images\n    /js\n    /lib\n    /templates\n```\n\n## Routing\nPut the routes for your app into file **/script/routes.js**.\n\n```\ndefine([\'controllers\', \'directives\'], function() {\n    \'use strict\';\n    window.app.config([\'$routeProvider\',\n        function($routeProvider) {\n            $routeProvider.\n            when(\'/\', {\n                templateUrl: \'templates/index.html\',\n                controller: \'indexController\'\n            }).\n            otherwise({\n                redirectTo: \'/\'\n            });\n        }\n    ]);\n});\n```\n\n## Controllers\nControllers are loaded by RequireJS. Put all your neededed controllers into file **/scripts/controllers.js**.\n\n```\ndefine([\'controllers/index\'], function(indexController) {\n    \'use strict\';\n    window.app.controller(\'indexController\', indexController);\n});\n```\n\nThe controllers files should be located into folder **/scripts/controllers/**\n\n```\n//scripts/controllers/index.js\n\ndefine([], function() {\n    \'use strict\';\n\n    function indexController($scope, $http) {\n        $scope.data = {};\n        $scope.data.libs = [];\n        $http.get(\'data/data.json\').then(function(result) {\n            $scope.data.libs = result.data;\n        });\n    }\n    indexController.$inject = [\'$scope\', \'$http\'];\n    return indexController;\n});\n```\n\n## Directives\nDirectives are loaded by RequireJS. Put all your neededed directives into file **/scripts/directives.js**.\n\n```\ndefine([\'directives/header\', \'directives/footer\'], function(headerDirective, footerDirective) {\n    \'use strict\';\n    window.app.directive(\'ngheader\', headerDirective);\n    window.app.directive(\'ngfooter\', footerDirective);\n});\n```\n\nThe directive files should be located into folder **/scripts/directives/**\n\n```\n//scripts/directives/header.js\n\ndefine([\'controllers/header\', \'text!../../templates/header.html\'], function(controller, template) {\n    \'use strict\';\n\n    function headerDirective() {\n        return {\n            restrict: \'A\',\n            controller: controller,\n            template: template\n        };\n    }\n    return headerDirective;\n});\n```\n\nYou can use RequireJS Text plugin to load a tempate file for the directive and inject a controller.\n\n### Templating\nThe NodeJS template engine JADE is implemented. Jade files (*.jade) must be located on **/templates** folder root.\n- Grunt task **jade.js** will process the files into HTML files to folder **/templates/html**.\n- Grunt task **copy.js** will copy all CSS files into **/templates/html** to folder **/dist/templates** for ditribution.\n- You can also create and edit HTML templates files in **/templates/html**.\n\nYou can use combined Jade and Angular directives for templating:\n\n```\n//templates/index.jade\n\nheader(\'ngheader\'=\'\')\n\nsection(class=\'content\')\n\nheader\n    img(class=\'logo\', src=\'images/angularjs.png\')\n\n.buttons.row\n    a(\'ng-repeat\'=\'lib in data.libs\', \'class\'=\'btn btn-default btn-sm\', \'href\'=\'{{lib.url}}\', \'target\'=\'_black\') {{lib.name}}\n\nfooter(\'ngfooter\'=\'\')\n```\n\n**Documentation:**\n- [http://jade-lang.com/](http://jade-lang.com/)\n\n### Styling\nSass files (*.sass, *.scss) must be located on **/src/styles** folder root.\n- Grunt task **sass.js** will process the files into CSS files to folder **/src/styles/css**.\n- Grunt task **copy.js** will copy all CSS files into **/src/styles/css** to folder **/dist/css** for ditribution.\n- You can also create and edit CSS files in **/src/styles/css**.\n\n# Dependencies\n\nGrunt task **copy.js** will read all bower.js files from **/bower_components** subfolders, and copy the file path from **main** node, like:\n\n\t//bower_components/requirejs/bower.json\n\t{\n\t  ...\n\t  "main": "require.js",\n\t  ...\n\t} \n\nAnd put this files into folder **/dist/lib/**.\n\nIf any installed dependency has no bower.json file (like lodash) you must edit the **copy.js** task to manually copy it:\n\n\tgrunt.config.set(\'copy\', {\n\t\t...\n\t\tlodash_: {\n\t\t\tcwd: \'bower_components/lodash/dist\',\n\t\t\tsrc: \'lodash.js\',\n\t\t\tdest: \'dist/lib/\',\n\t\t\texpand: true\n\t\t},\n\t\t...\n\t});\n\nIf an unnecesaary file is copied (like boostrap.less):\n\n\t//bower_components/bootstrap/bower.json\n\t{\n\t  ...\n\t  "main": [\n    \t"less/bootstrap.less",\n    \t"dist/js/bootstrap.js"\n\t  ],\n\t  ...\n\t} \n\t\nyou can delete it with the **clean-dist.js** task:\n\n\t//grunt/clean-dist.js\n\tgrunt.registerTask(\'clean-dist\', \'Clean dist folder\', function() {\n\t\t...\n\t\tgrunt.config.set(\'clean.files.src\', [\'dist/lib/bootstrap.less\']);\n\t\t...\n\t});\n\n# Contributing and issues\nContributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better then please submit an issue or send me an [email](mailto:mail@zguillez.io).\n\n# License\n©2016 Zguillez.io\n\nOriginal code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Open Source projects used within this project retain their original licenses.\n\n# Changelog\n\n### v1.1.0 (March 4, 2016)\n\n- Auto copy dependecies fron bower.json file\n\n### v1.0.0 (January 12, 2016)\n- Fix yo install version\n\n### v0.1.7 (Decenber 21, 2015)\n- Grunt livereload\n\n### v0.1.5 (October 21, 2015)\n- Fixed jshint isuses\n\n### v0.1.0 (October 20, 2015)\n- Initial AngularJS skeleton\n\nFeatures:\n- Bootstrap\n- Jquery\n- Sass\n- Jade templating\n- JSHint code chech\n- Grunt tasks\n\n[![Analytics](https://ga-beacon.appspot.com/UA-1125217-30/zguillez/generator-base-angularjs?pixel)](https://github.com/igrigorik/ga-beacon)',
+25 silly publish   readmeFilename: 'README.md',
+25 silly publish   gitHead: '1395f2f9a0a15ee1341cae1d88d94adf569a8f97',
+25 silly publish   _id: 'generator-base-angularjs@1.2.1',
+25 silly publish   _shasum: '8b6c2f86c7cbc73e5bf50a884eb95b80ad11045f',
+25 silly publish   _from: '.' }
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name generator-base-angularjs
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'generator-base-angularjs',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'generator-base-angularjs',
+30 silly mapToRegistry   name: 'generator-base-angularjs',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/generator-base-angularjs
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/zguillez/.npm/generator-base-angularjs/1.2.1/package.tgz
+34 verbose request uri https://registry.npmjs.org/generator-base-angularjs
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 15:43:48
+37 verbose request using bearer token for auth
+38 verbose request id 5c04821d16bfafb1
+39 http request PUT https://registry.npmjs.org/generator-base-angularjs
+40 http 403 https://registry.npmjs.org/generator-base-angularjs
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '95',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Tue, 23 Aug 2016 13:43:50 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1471959828.448615,VS0,VE1693',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/zguillez/.npm/registry.npmjs.org/generator-base-angularjs on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 1.2.1." : generator-base-angularjs
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+44 verbose stack     at emitTwo (events.js:100:13)
+44 verbose stack     at Request.emit (events.js:185:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+44 verbose stack     at emitOne (events.js:95:20)
+44 verbose stack     at Request.emit (events.js:182:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+45 verbose statusCode 403
+46 verbose pkgid generator-base-angularjs
+47 verbose cwd /Users/zguillez/Documents/SVN/YEOMAN/generator-base-angularjs
+48 error Darwin 14.5.0
+49 error argv "/usr/local/Cellar/node/0.10.29/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v5.8.0
+51 error npm  v3.10.6
+52 error code E403
+53 error "You cannot publish over the previously published version 1.2.1." : generator-base-angularjs
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
