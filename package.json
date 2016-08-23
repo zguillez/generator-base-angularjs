@@ -22,23 +22,23 @@
     "Grunt"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.22.0",
+    "yeoman-generator": "^0.24.1",
     "chalk": "^1.1.3",
-    "yosay": "^1.1.1"
+    "yosay": "^1.2.0"
   },
   "devDependencies": {
     "yeoman-test": "^1.4.0",
     "yeoman-assert": "^2.2.1",
-    "eslint": "^2.9.0",
-    "eslint-config-xo-space": "^0.13.0",
+    "eslint": "^3.3.1",
+    "eslint-config-xo-space": "^0.14.0",
     "gulp": "^3.9.1",
-    "gulp-eslint": "^2.0.0",
+    "gulp-eslint": "^3.0.1",
     "gulp-exclude-gitignore": "^1.0.0",
     "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-istanbul": "^0.10.4",
-    "gulp-mocha": "^2.2.0",
+    "gulp-istanbul": "^1.1.0",
+    "gulp-mocha": "^3.0.1",
     "gulp-plumber": "^1.1.0",
-    "gulp-nsp": "^2.4.1",
+    "gulp-nsp": "^2.4.2",
     "gulp-coveralls": "^0.1.4",
     "bower": "^1.7.9",
     "connect-livereload": "^0.5.4",
@@ -50,14 +50,14 @@
     "grunt-contrib-jade": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-sass": "~1.0.0",
-    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-contrib-uglify": "~2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-merge-copy": "^1.0.0",
+    "grunt-merge-copy": "^1.0.1",
     "grunt-open": "^0.2.3",
     "grunt-reload": "^0.2.0",
     "jade": "^1.11.0",
-    "jshint-stylish": "^2.2.0",
-    "load-grunt-tasks": "^3.5.0"
+    "jshint-stylish": "^2.2.1",
+    "load-grunt-tasks": "^3.5.2"
   },
   "eslintConfig": {
     "extends": "xo-space",
