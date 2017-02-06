@@ -1,5 +1,7 @@
 # generator-base-angularjs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zguillez/generator-base-angularjs.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/generator-base-angularjs.svg)](https://badge.fury.io/js/generator-base-angularjs)
 [![Build Status](http://img.shields.io/travis/zguillez/generator-base-angularjs.svg)](https://travis-ci.org/zguillez/generator-base-angularjs)
 [![Code Climate](http://img.shields.io/codeclimate/github/zguillez/generator-base-angularjs.svg)](https://codeclimate.com/github/zguillez/generator-base-angularjs)
