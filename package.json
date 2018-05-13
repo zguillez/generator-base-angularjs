@@ -51,7 +51,7 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-sass": "~1.0.0",
     "grunt-contrib-uglify": "~2.1.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-merge-copy": "^1.0.1",
     "grunt-open": "^0.2.3",
     "grunt-reload": "^0.2.0",
