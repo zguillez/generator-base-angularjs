@@ -57,7 +57,7 @@
     "grunt-reload": "^0.2.0",
     "jade": "^1.11.0",
     "jshint-stylish": "^2.2.1",
-    "load-grunt-tasks": "^3.5.2"
+    "load-grunt-tasks": "^5.1.0"
   },
   "eslintConfig": {
     "extends": "xo-space",
